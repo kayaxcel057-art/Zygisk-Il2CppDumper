@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       package_name:
-        description: "Package name of the target game/app"
+        description: "com.dts.freefireth"
         required: true
         type: string
-        default: "com.example.game"
+        default: "com.dts.freefireth"
       skip_cache:
         description: "是否跳过缓存"
         required: false
